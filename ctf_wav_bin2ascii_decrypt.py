@@ -2,7 +2,12 @@
 """
 Created on Thu Jun 25 22:31:13 2020
 
-@author: Biscuit
+@author: Austin Caddell
+
+This program was created because a friend of mine sent me an audio file
+that sounded like the volume was going up and down. This program checks
+the volume every 150ms and depending on the value will decode a 1 or 0. 
+
 """
 
 from pydub import AudioSegment #pip install filetype
